@@ -1,0 +1,17 @@
+{
+    "PT": {
+      "bio": "Estudante de ciência da computação em busca de estágio",
+      "navHome": "Início",
+      "navContact": "Contato",
+      "navProject": "Projetos",
+      "about": "Estudando ciência da computação na faculdade IFSP - Câmpus Salto, estou em busca de um estágio na área Dev, algumas de minhas habilidades são: C# .NET | Python | Ruby on Rails | MySQL | Git "
+    },
+    "EN": {
+      "bio" : "Computer science student looking for internship",
+      "navHome": "Home",
+      "navContact": "Contact",
+      "navProject": "Projects",
+      "about": "Studying computer science in the IFSP university, based on Brazil, some of my skills in the area are: C# .net | Python | Ruby on rails | MySQL | Git |"
+    }
+  }
+  

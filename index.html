@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>João Gebara - Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='app.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+<body>
+    <main>
+        <nav>
+            <ul class="navbar-left">
+              <li><a href="index.html" id="home">Home</a></li>
+              <li><a href="assets/pages/contact.html" id="contacts">Contact</a></li>
+              <li><a id="goto-projects">Projects</a></li>
+            </ul>
+            <ul>
+              <li>
+                <div class="combo-lang-container">
+                  <select id="languageSelect">
+                    <option value="PT">PT</option>
+                    <option value="EN">EN</option>
+                  </select>
+                </div>
+              </li>
+            </ul>
+            </ul>
+        </nav>
+        <div class="icon-container">
+            <img src="assets/img/spike-icon.jpg" alt="Icon">
+        </div>
+        <div class="name-bio">
+            <h1>João Gebara</h1>
+            <p id="Bio">Biografia</p>
+            <div class = "social-links">
+              <a href="https://www.linkedin.com/in/joaogebara/" target="_blank">
+                <i class="fab fa-linkedin" style="color:black"></i>
+              </a>
+              <a href="https://github.com/gebarito" target="_blank">
+                <i class="fab fa-github" style="color: black"></i>
+              </a>
+              <a href="https://gebarito.itch.io/" target="_blank">
+                <i class="fab fa-itch-io" style="color: black"></i>
+              </a>
+              <a id="CurriculumDownloader">
+                <i class="fa-solid fa-file-pdf" style="color: black"></i>
+              </a>
+            </div>
+          </div>
+          <section id="projectsSession">
+            <div class="Container-ProjectsList">
+              <h2 id="projects-H2">Projects</h2>
+              <div id="projectsContainer">
+                <!--Exibirão os projetos do JSON projectsText.json-->
+              </div>
+            </div>
+          </section>          
+    </main>
+</body>
+</html>

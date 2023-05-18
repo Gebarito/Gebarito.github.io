@@ -1,0 +1,26 @@
+{
+    "PT":{
+        "Project_1":{
+            "Title": "Detector de desmatamento",
+            "Body": "Feito com MATLAB para feira de ciências da minha faculdade",
+            "link_to": "https://github.com/Gebarito/Quantificador-desmatamento"
+        },
+        "Project_2":{
+            "Title": "Aplicação para desktop com .NET",
+            "Body": "Bugtracker para desktop, desenvolvido com c# .net e banco de dados MYSQL",
+            "link_to" : "https://www.linkedin.com/feed/update/urn:li:activity:7020842651113402368/"
+        }
+    },
+    "EN":{
+        "Project_1" :{
+            "Title": "Deforestation detector",
+            "Body": "Made with matlab for my college science fair",
+            "link_to": "https://github.com/Gebarito/Quantificador-desmatamento"
+        },
+        "Project_2":{
+            "Title": "Destkop app with .NET",
+            "Body": "Bugtracker app made for desktops, developed with c# .net and MYSQL database",
+            "link_to": "https://www.linkedin.com/feed/update/urn:li:activity:7020842651113402368/"
+        }
+    }
+}

@@ -1,0 +1,160 @@
+body {
+  background-color: rgb(240, 243, 246);
+  align-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+header {
+  position: relative;
+  height: 50px;
+}
+
+.icon-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name-bio {
+  font-family: Helvetica, sans-serif;
+}
+
+.name-bio h1 {
+  margin: 5px;
+  font-size: 2em;
+  font-family: 'Anton', sans-serif;
+}
+
+.name-bio p {
+  font-size: 1em;
+}
+
+.social-links {
+  margin: 5px;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+.flag-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.flag-icon:first-child {
+  background-image: url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/373/flag-brazil_1f1e7-1f1f7.png');
+}
+
+.flag-icon:last-child {
+  background-image: url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/373/flag-united-kingdom_1f1ec-1f1e7.png');
+}
+
+header {
+  position: relative;
+  height: 50px;
+}
+
+nav {
+  background-color: #333;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: medium;
+}
+
+nav select {
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.Container-ProjectsList{
+  margin-top: 40px;
+}
+
+.Container-ProjectsList a {
+  margin-top: 150em;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+.Container-ProjectsList a:hover {
+  color: rgb(124, 121, 121);
+}
+
+
+.links-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.link-item {
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.link-item:hover {
+  background-color: #ddd;
+}
+
+.link-tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
